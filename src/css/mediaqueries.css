@@ -1,0 +1,62 @@
+@media(max-width:600px){
+     /* All Moblie Screen */
+
+
+   .img-fluid{
+     width: 140%;
+   }
+ 
+   .ul{
+      display: flex;
+      justify-content: center;
+      width: 55%;
+      gap: 0px;
+      margin-left: 0px;
+      font-size: 20px;
+     }
+
+ 
+.main-img{
+  background-image: url('../../public/header.jpg');
+  background-size: 100% 30%;
+  min-height: 860px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+   /* border-bottom-left-radius: 50px 20px;
+  border-bottom-right-radius: 250px 90px;  */
+  /* opacity: 80%; */
+   
+}
+.row-card {
+  display: flex;
+  gap: 29px;
+}
+
+}
+@media (min-width:600px) and (max-width:900px) {
+    .ul{
+       display: flex;
+       justify-content: center;
+       width: 55%;
+       gap: 0px;
+       /* left: 20px; */
+       margin-left: 0px;
+       font-size: 20px;
+  
+     }
+
+.main-img{
+  background-image: url('../../public/header.jpg');
+  background-size: 100% 30%;
+  min-height: 860px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+   /* border-bottom-left-radius: 50px 20px;
+  border-bottom-right-radius: 250px 90px;  */
+  /* opacity: 80%; */
+   
+}
+
+}

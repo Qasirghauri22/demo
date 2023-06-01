@@ -1,0 +1,86 @@
+.footer-main{
+    min-height: 730px;
+    background-image: url("../assets//img//footer//Vector\ \(2\)\ \(1\).svg");
+}
+.input-content{
+    display:flex ;
+    justify-content: center;
+}
+.main-input{
+    background:white;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 23px;
+
+}
+.main-input input{
+    width: 80%;
+    height: 48px;
+    border-radius: 23px;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+    /* box-shadow:  1px 2px 5px black; */
+}
+.main-input button{
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;    border-radius: 23px;
+
+font-size: 12px;
+
+    /* color: aliceblue; */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #1B4079;
+
+
+}
+.main-input button:hover{
+    background-color: #1B4079;
+    color: aliceblue;
+    border-radius: 23px;
+
+}
+.footer ul{
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 30px;
+
+}
+.footer ul li{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+
+cursor: pointer;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.footer h5{
+    padding-top: 15px;
+}
+.media-app a{
+    width: 100.19px;
+    height: 43.19px;
+    left: calc(50% - 43.19px/2 - 70.78px);
+    top: 387px;
+    
+    background: #CCCCCC;
+    border-radius: 50px;
+}

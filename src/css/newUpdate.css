@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&family=Roboto:wght@500&display=swap');
+
+
+
+
+.update-main{
+    /* border: 1px solid #00; */
+    min-height: 670px;
+    background: #FFFFFF;
+}
+.update-content{
+    width: 500px;
+}
+.update-content h1{
+
+    font-family: 'Roboto'!important;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+
+color: #1B4079;
+}
+.update-contentt{
+    width: 760px;
+}
+.update-contentt p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    
+
+}
+.update-contentt button{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 11px 40px;
+background: #1E417B;
+border-radius: 3px;
+color: #FFFFFF;
+border: none;
+}
+.update-card{
+    width: 380px;
+}
+.row-card{
+    display: flex;
+    gap: 70px;
+}
+
+.date-div{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px 21px;
+color: rgba(17, 24, 39, 0.6);
+
+background: rgba(31, 41, 55, 0.04);
+border-radius: 21.3333px;
+}
+.date-content h5{
+  
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18.6667px;
+margin-top: 4px;
+padding-left: 10px;
+color: rgba(17, 24, 39, 0.6);
+}
+.card-content button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 40px;
+    background: #1E417B;
+    border-radius: 3px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
